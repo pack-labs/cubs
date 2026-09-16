@@ -430,6 +430,118 @@ h2 {
 }
 
 
+.principles {
+    margin-bottom: 70px;
+}
+
+
+.principles-intro {
+    max-width: 600px;
+
+    margin: -8px 0 40px;
+
+    color: var(--muted);
+
+    font-size: 18px;
+}
+
+
+.principles-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+
+.principle-card {
+    position: relative;
+
+    min-height: 260px;
+
+    padding: 28px;
+
+    background: white;
+
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--gold);
+    border-radius: 18px;
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+}
+
+
+.principle-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 12px 24px rgba(18,48,74,.08);
+}
+
+
+.principle-number {
+    display: block;
+
+    margin-bottom: 28px;
+
+    color: var(--gold);
+
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .16em;
+}
+
+
+.principle-card h3 {
+    margin: 0 0 16px;
+
+    color: var(--navy);
+
+    font-size: 23px;
+
+    letter-spacing: -.01em;
+}
+
+
+.principle-card p {
+    margin: 0;
+
+    color: var(--muted);
+
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+}
+
+
+.motto {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+.law {
+    font-size: 17px;
+}
+
+
+.principle-card blockquote {
+    margin: 0;
+}
+
+
+.principle-card blockquote p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+.principle-card blockquote strong {
+    color: var(--navy);
+}
+
+
 .parents-box {
     display: grid;
 
@@ -560,6 +672,11 @@ footer {
         grid-template-columns: 1fr;
 
         gap: 30px;
+    }
+
+
+    .principles-grid {
+        grid-template-columns: 1fr;
     }
 
 
