@@ -130,6 +130,11 @@ nav a:hover {
 }
 
 
+#parents {
+    scroll-margin-top: 30px;
+}
+
+
 /* --------------------------------
    HERO
 -------------------------------- */
@@ -222,6 +227,11 @@ h3 {
 }
 
 
+.secondary-links {
+    margin-top: 12px;
+}
+
+
 .button {
     display: inline-block;
 
@@ -244,7 +254,8 @@ h3 {
 }
 
 
-.button-light {
+.button-light,
+.button-link {
     background: white;
     color: var(--navy);
 }
